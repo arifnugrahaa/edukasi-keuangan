@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edukasi Keuangan - Investasi</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Investasi</h1>
+    </header>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="menabung.html">Menabung</a>
+      <a href="investasi.html">Investasi</a>
+      <a href="tips.html">Tips</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+    <div class="container">
+      <section id="investasi">
+        <h2>Jenis-Jenis Investasi</h2>
+        <p>
+          Investasi adalah cara yang efektif untuk meningkatkan kekayaan Anda.
+          Pelajari berbagai jenis investasi dan pilih yang sesuai dengan profil
+          risiko Anda.
+        </p>
+        <table>
+          <caption>
+            Perbandingan Jenis Investasi
+          </caption>
+          <thead>
+            <tr>
+              <th>Jenis Investasi</th>
+              <th>Keuntungan</th>
+              <th>Risiko</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Saham</td>
+              <td>Tinggi</td>
+              <td>Tinggi</td>
+            </tr>
+            <tr>
+              <td>Obligasi</td>
+              <td>Sedang</td>
+              <td>Rendah</td>
+            </tr>
+            <tr>
+              <td>Reksadana</td>
+              <td>Variatif</td>
+              <td>Sedang</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Kalkulator Investasi</h2>
+        <form id="kalkulator">
+          <label for="principal">Jumlah Awal (Rp):</label>
+          <input type="number" id="principal" required />
+          <label for="rate">Tingkat Bunga Tahunan (%):</label>
+          <input type="number" id="rate" step="0.01" required />
+          <label for="years">Jangka Waktu (tahun):</label>
+          <input type="number" id="years" required />
+          <input type="submit" value="Hitung" />
+        </form>
+        <h3 id="hasil"></h3>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Edukasi Keuangan. All rights reserved.</p>
+    </footer>
+    <nav>
+      <a href="https://facebook.com">Facebook</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://x.com/">Twitter</a>
+    </nav>
+    <script src="js/investasi.js"></script>
+  </body>
+</html>
